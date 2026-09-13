@@ -1,7 +1,7 @@
 # 📝 Functional React To-Do List
 Simple React app from scratch to handle daily tasks while learning how state flows in a real project.
 
-![To-Do List Preview](./functional-to-do-list/src/assets/images/app-screenshot.png)
+![To-Do List Preview](./src/assets/images/app-screenshot.png)
 
 # What it does
 * **Manage items:** You can type out new tasks to add them to your schedule, or hit remove to wipe old ones away instantly.
