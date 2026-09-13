@@ -1,0 +1,129 @@
+body{
+  background-color: #A69658;
+  color :#795C5F;
+}
+
+.container {
+    max-width: 450px;
+    margin: 40px auto 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color :#795C5F;
+
+
+    
+}
+
+.container-title {
+    color: #F2E29F;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+ 
+
+}
+
+input[type="text"] {
+    width: 65%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #4da6ff;
+}
+
+.Add-btn {
+    width: 25%;
+    padding: 14px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.Add-btn:hover {
+    background-color: #218838;
+}
+
+ol {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: #795C5F;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e9ecef;
+}
+
+.text {
+  color:#F2E29F;
+    flex-grow: 1;
+    font-size: 16px;
+    word-break: break-word;
+    padding-right: 10px;
+}
+
+.Remove-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.2s;
+}
+
+.Remove-btn:hover {
+    background-color: #c82333;
+}
+
+.Up-btn-img, .Down-btn-img {
+    background: none;
+    border: none;
+    padding: 6px;
+    margin-left: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.Up-btn-img:hover {
+    background-color: #e2f0fe;
+}
+
+.Down-btn-img:hover {
+    background-color: #ffebe6;
+}
+
+.Up-btn-img img, .Down-btn-img img {
+    width: 20px;
+    height: 20px;
+}
